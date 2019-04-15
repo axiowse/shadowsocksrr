@@ -1,0 +1,2 @@
+# shadowsocksrr
+Shadowsocksr docker image
