@@ -23,4 +23,4 @@ RUN git clone -b akkariiin/master https://github.com/axiowse/shadowsocksr.git /s
 
 WORKDIR /shadowsocksr
 
-ENTRYPOINT ["python", "/shadowsocksr/server.py m>> ssserver.log 2>&1"]
+ENTRYPOINT ["python", "server.py"]
